@@ -1,5 +1,7 @@
 # Smells like nice challenge
 
+_Author: [TheArqsz](https://github.com/TheArqsz)
+
 It is now year 2077 and all those 36 Robots that are left, are dancing to old hits. 
 All least significant units were destroyed during the Purge.
 Wake up soldier, we've got challenge to solve.
