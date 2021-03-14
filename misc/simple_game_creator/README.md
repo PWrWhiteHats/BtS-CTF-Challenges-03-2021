@@ -1,5 +1,8 @@
 # Simple game creator
 
+_Author: [TheArqsz](https://github.com/TheArqsz)
+
+
 Recently we had to postpone our biggest game for the 6th time...what a shame.
 To calm down people who bought preorders we created this app. It will let us collect users' ideas for games and maybe...maybe we will use it in the future (somewhere around 2077, cause who knows how many postpones are waiting for us)
 

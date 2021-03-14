@@ -1,6 +1,6 @@
 # Shake-It
 
-*Author: __Hck__*
+*Author: [__Hck__](https://github.com/KamilPiszczek)*
 
 ## Description 
 
@@ -23,5 +23,3 @@ You can use `./flaggen` to generate other flag if you want to, just change the v
 This is an offline challenge, just host the 'shake-it.rb' file, and allow it's download.
 
 ## Write-up
-
-Upper 3 bits of hash are left untouched, you can use them to find next 3 bits of original data and so on. If you don't feel like bitfidling hero, you can do it in-place, bit-by-bit with ofset of 3 bits. See `solution.rb`.

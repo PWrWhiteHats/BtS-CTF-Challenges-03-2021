@@ -1,5 +1,8 @@
 ## Description
 
+_Author: [AhmedQuas](https://github.com/AhmedQuas)
+
+
 Our leaderboard shows the results of the last golf tournament. Some of the players want to be anonymous, so the table only show their score. Anonymous player should receive specian link to access their profile in email message.
 
 

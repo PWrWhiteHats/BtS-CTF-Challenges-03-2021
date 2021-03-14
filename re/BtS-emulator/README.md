@@ -1,5 +1,8 @@
 # BtS-emulator
 
+_Author: [Jakub](https://github.com/Jakub259)
+
+
 I bet you can't crack BtS-emulator ;)
 
 ## Flag 

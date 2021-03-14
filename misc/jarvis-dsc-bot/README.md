@@ -1,5 +1,7 @@
 # Jarvis Discord bot
 
+_Author: [TheArqsz](https://github.com/TheArqsz)
+
 Do you know Jarvis? Mr. Stark's assistant? I am sure you do. During our CTF you can talk with him. Who knows, maybe he will share one of his master's secrets?
 
 ## How to install

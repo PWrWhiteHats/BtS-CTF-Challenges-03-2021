@@ -1,5 +1,8 @@
 # Yargh! Ahoy, comrate!
 
+_Author: [Tacola](https://github.com/Tacola320)
+
+
 Ahoy! let's play a game. I will ask ye three questions an' ye need to answer correctly. Talk to me by usin' YARghA... ekhm jara. 
  ye need to find a secret phrase to start talk to me! this is where i want to come from!
 

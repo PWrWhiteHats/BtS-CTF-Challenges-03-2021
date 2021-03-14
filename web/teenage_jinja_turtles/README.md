@@ -1,5 +1,8 @@
 # Teeange Mutant Jinja Turtles 1
 
+_Author: [TheArqsz](https://github.com/TheArqsz)
+
+
 My favourite tv show was always 162.254.253.208...Strange name, isn't it? Maybe my new App will help you find out what is the exact name of it.
 
 ## Flag

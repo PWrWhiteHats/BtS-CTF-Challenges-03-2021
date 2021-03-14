@@ -1,5 +1,7 @@
 # Lost Photos
 
+_Author: [FluffyFluffer](https://github.com/FluffyFluffer)
+
 God! All my photos from Moscow are gone, <br>
 Hard disk had some problems, <br>
 Usually it happens to my friends, <br>

@@ -1,5 +1,7 @@
 # Can't break this vault
 
+_Author: [TheArqsz](https://github.com/TheArqsz)
+
 Holy truck, those hackers locked out all my dogecoins in this password-protected vault. Help me Pla-Yer. You're my only hope.
 
 ## Flag

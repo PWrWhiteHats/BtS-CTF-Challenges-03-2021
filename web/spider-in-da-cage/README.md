@@ -1,4 +1,8 @@
 # Spider in da cage
+
+_Author: [t0mBombadil](https://github.com/TomasBombadil)
+
+
 Tony! 
 I got IT, i finolly got IT... It's part of their config with a key. 
 I am in thee hurry.. THEY would get to me soon, I am erasing the evidence, 

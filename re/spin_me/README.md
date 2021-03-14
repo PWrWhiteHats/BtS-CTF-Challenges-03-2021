@@ -1,5 +1,7 @@
 # Spin me
 
+_Author: [xxzxcuzx-me](https://github.com/xxzxcuzx-me)
+
 Crack me plz
 
 ## Flag

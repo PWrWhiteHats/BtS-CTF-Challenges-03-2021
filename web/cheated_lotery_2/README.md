@@ -1,5 +1,8 @@
 # Cheated Lottery 2
 
+_Author: [TheArqsz](https://github.com/TheArqsz)
+
+
 I am an admin of this lottery and I found my mistakes in the code - I fixed them before my boss could see them. Unfortunately no one can win now - small price for not being fired. Need to fix this ASAP...
 
 ## Challenge

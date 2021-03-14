@@ -1,5 +1,8 @@
 # Cheated Lottery
 
+_Author: [TheArqsz](https://github.com/TheArqsz)
+
+
 I am trying to win this stupid lottery but with no success for a long time...I have to try one more time, I've got new coupon - maybe this is the one? Who knows, maybe I'll win something more than expected?
 
 ## Challenge

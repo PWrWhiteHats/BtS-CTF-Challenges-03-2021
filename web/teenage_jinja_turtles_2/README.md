@@ -1,5 +1,7 @@
 # Teeange Mutant Jinja Turtles 2
 
+_Author: [TheArqsz](https://github.com/TheArqsz)
+
 Oh shut, it looks like that I forgot to secure my IP app before! Good news is that it is now secure and ready to be shown to the world. Nobody can break my sanitization...
 
 ## Flag
