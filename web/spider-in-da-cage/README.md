@@ -37,11 +37,11 @@ docker build . -t spider-in-da-cage && docker run -p 30085:80 -v html:/usr/share
 ```
 
 ## Solution
-Check in [SOLUTION.md](solution/SOLUTION.md) file
+Check in [README.md](solution/README.md) file
 
 
 
-## Generate random gallery website:
+## Generate random gallery website, if you would like replace Nicolas with somebody else:
 
 Download files from google image 
 ```bash

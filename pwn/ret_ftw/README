@@ -21,4 +21,4 @@ Reference: [https://anee.me/how-to-host-a-ctf-b644a1f15618]
 
 ## Solution
 
-It's easy pwn exercise. You just have to overflow to EIP, setting address of win function.
+Check in [solution folder](./solution/README.md)

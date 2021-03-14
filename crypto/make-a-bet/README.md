@@ -13,4 +13,4 @@ there is a flag `BtS-CTF{6a6ec1bda97401bd1a0f5d6fd18a0bf9}` in `games.rb`. You c
 
 ## solution
 
-There is a really nice [WRITE_UP.md](./solution/WRITE_UP.md) in this directory describing what to do. There is also `solution.rb` that implments thing described in WRITE_UP.
+There is a really nice [WRITE_UP.md](./solution/README.md.md) in this directory describing what to do. There is also `solution.rb` that implments thing described in WRITE_UP.

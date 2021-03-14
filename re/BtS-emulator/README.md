@@ -35,6 +35,6 @@ g++ -std=c++2a eumlator_for_server.cpp -o emulator_for_server -lseccomp
 
 ## Solution 
 
-Check in [SOLUTION.md](solution/SOLUTION.md) file
+Check in [README.md](solution/README.md) file
 
 

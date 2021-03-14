@@ -14,4 +14,4 @@ Check in [flag.txt](flag.txt) file
 
 ## Solution
 
-Check in [SOLUTION.md](solution/SOLUTION.md) file
+Check in [README.md](solution/README.md) file

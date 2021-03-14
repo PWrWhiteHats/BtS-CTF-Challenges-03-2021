@@ -20,4 +20,4 @@ Reference: [https://anee.me/how-to-host-a-ctf-b644a1f15618]
 
 ## Solution
 
-It's medium pwn exercise. You have to overflow to EIP, place your shellcode on the stack and execute it. The flag sits on the server in the flag.txt file.
+Check in [solution folder](./solution/README.md)

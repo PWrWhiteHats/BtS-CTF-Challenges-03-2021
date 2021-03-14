@@ -1,4 +1,4 @@
-# Solution here
+# Solution 
 
 This challenge have a lot of random pages, lot more than you can check manualy. 
 You know only you need to pass certain header to one of them.

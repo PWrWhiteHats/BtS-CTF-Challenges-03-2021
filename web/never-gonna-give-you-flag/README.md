@@ -12,4 +12,4 @@ docker build . --no-cache -t never-gonna-give-you-flag && docker run -p 30086:80
 ```
 
 ## Solution
-You can read it in [SOLUTION.md](solution/SOLUTION.md) file
+You can read it in [README.md](solution/README.md) file

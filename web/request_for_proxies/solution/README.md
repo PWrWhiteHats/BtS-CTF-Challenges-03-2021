@@ -1,0 +1,5 @@
+## SOLUTION
+
+This challenge contains at least two vulnerabilities: XSS and SSRF. While XSS is widely known, SSRF remains quite obscure to most beginners, therefore I decided to make XSS useless in this chall.
+Initially you can see information about this website(telling you that it's some kind of proxy) and form with one text input. After submitting link pointing to a working website, server will return to you content of it. Knowing that, you can try putting something like `http://localhost/index.php` to check, if you can access internal addresses. If you do it, you will see error message telling you that using that address is forbidden(same happens if you use 127.0.0.1). Now you have to bypass some sanitization. It's quite easy, you can for example use domain name like vcap.me that resolves to 127.0.0.1. Then you scan all ports of localhost to discover another webserver on port 69, which serves only one thing - flag. 
+One liner that scans all ports of localhost using that SSRF vulnerability: ```for i in {1..65535}; do curl http://localhost/index.php?address=http://vcap.me:$i;done```
