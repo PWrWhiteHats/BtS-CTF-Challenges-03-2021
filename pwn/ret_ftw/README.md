@@ -12,7 +12,7 @@ BtS-CTF{smash_da_stack_for_fun_and_flags}
 
 This chall comes with two files. One is for the player, and the second should be run on the server. The one for the player includes censored flag. Please make sure that flag in user's file is the same length as in server file.
 To compile it just run command: 
-gcc filename -o chall -m32 -fno-stack-protector -z execstack
+gcc filename -o chall -no-pie -fno-stack-protector -z execstack
 On the serverside just disable ASLR with 
 sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
 and run command
