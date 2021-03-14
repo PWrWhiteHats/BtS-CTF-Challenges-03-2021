@@ -1,0 +1,4 @@
+scrapy
+termcolor
+argparse
+requests

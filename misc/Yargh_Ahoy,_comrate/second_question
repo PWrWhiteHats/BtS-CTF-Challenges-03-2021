@@ -1,0 +1,8 @@
+rule second_question
+{
+    strings:
+        $answer = "584566"
+
+    condition:
+        $answer
+}

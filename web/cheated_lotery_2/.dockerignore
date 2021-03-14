@@ -1,0 +1,7 @@
+.venv/
+venv/
+*.pyc
+__pycache__/
+.vscode/
+Dockerfile
+README.md

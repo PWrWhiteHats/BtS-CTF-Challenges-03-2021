@@ -1,0 +1,8 @@
+rule third_question
+{
+    strings:
+        $answer = "sailacrosstheseatoitalymyfriendandyouwillhavemoreandmoreorangesinthenaplescampania"
+
+    condition:
+        $answer
+}

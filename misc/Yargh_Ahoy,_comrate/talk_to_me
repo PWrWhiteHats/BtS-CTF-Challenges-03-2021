@@ -1,0 +1,8 @@
+rule talk_to_me
+{
+    strings:
+        $key = "Pirate of Penzance"
+
+    condition:
+        $key
+}

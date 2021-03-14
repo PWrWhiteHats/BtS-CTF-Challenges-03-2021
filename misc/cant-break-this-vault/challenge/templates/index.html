@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- <link href="/debug_it" rel="next"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <br>
+    <body>
+        <br>
+        <main role="main" class="container">
+            <div class="container w-50">
+                <form class="checker" >
+                    <div class="container w-75">
+                        <input class="form-control" id="codeInput" placeholder="Your code">
+                    </div>
+                    <div></div>
+                    <div class="container w-50">
+                        <input type="submit" class="btn btn-light w-100 submit_button" style="background-color: #6a3ffa;" id="submit_button" value="Unlock vault">
+                    </div>
+                </form>
+            </div>
+        </main>   
+        <br>
+        <div class="container" id="res"> 
+            
+        </div>
+        <footer>
+            <script src="{{ url_for('static', filename='js/module.js') }}"></script>
+            <script src="{{ url_for('static', filename='js/helpers.js') }}"></script>
+        </footer>
+    </body>
+</html>
