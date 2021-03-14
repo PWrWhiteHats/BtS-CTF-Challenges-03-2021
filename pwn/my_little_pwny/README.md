@@ -12,7 +12,7 @@ BtS-CTF{4ll_y0ur_sh3ll_4r3_b3l0ng_to_us}
 ## How to run
 
 To compile it just run command: 
-gcc filename -o chall -m32 -fno-stack-protector -z execstack
+gcc filename -o chall -no-pie -fno-stack-protector -z execstack
 On the serverside just disable ASLR with 
 sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
 and run command
