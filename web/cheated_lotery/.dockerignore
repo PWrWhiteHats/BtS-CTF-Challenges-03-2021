@@ -1,0 +1,5 @@
+Dockerfile
+requirements.txt
+*.pyc
+__pycache__/
+.venv/

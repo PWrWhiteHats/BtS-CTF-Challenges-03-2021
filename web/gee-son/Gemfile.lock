@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jwt (2.2.2)
+    openssl (2.2.0)
+    webrick (1.7.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  jwt
+  openssl
+  webrick
+
+BUNDLED WITH
+   2.2.8

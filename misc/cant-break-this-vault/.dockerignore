@@ -1,0 +1,17 @@
+.vscode/
+images/
+README.md
+ideas.txt
+.gitignore
+Dockerfile
+
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+flag.txt
+examples/

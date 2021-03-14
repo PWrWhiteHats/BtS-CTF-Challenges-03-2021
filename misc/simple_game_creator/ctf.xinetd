@@ -1,0 +1,21 @@
+service ctf
+{
+    flags       = REUSE
+    type        = UNLISTED
+    socket_type = stream
+    wait        = no
+    user        = ctf
+    server      = /usr/local/bin/python
+    server_args = /home/ctf/run.py
+    log_on_failure += USERID
+    log_type    = SYSLOG 
+    disable     = no
+    port        = 4444
+    bind        = 0.0.0.0
+    protocol    = tcp
+    # safety options
+    flags       = REUSE
+    per_source	= 10 # the maximum instances of this service per source IP address
+    rlimit_cpu	= 1 # the maximum number of CPU seconds that the service may use
+    nice        = 18
+}

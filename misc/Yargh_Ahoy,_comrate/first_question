@@ -1,0 +1,8 @@
+rule first_question
+{
+    strings:
+        $answer = "coffin"
+
+    condition:
+        $answer
+}

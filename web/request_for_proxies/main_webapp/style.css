@@ -1,0 +1,84 @@
+/* ----------- common.css changes -------------- */
+
+html { color: green; font-family: "courier new", monospace; background: black; }
+hr { color: green; background-color: green; border: .5px solid green}
+pre { background-color: #222; border: 4px ridge green; }
+textarea { font-family: "courier new", monospace; background-color: #333; color: lightgrey; border: 4px ridge green; }
+input { background-color: lightgreen; }
+
+/* Links */
+a:link { color: lightgreen; }
+
+/* Dead links */
+a.moin-nonexistent:visited,
+a.moin-nonexistent,
+a.moin-badinterwiki:visited,
+a.moin-badinterwiki { color: #a5a; }
+
+/* Footnotes */
+.footnotes div { border-top: 2pt dashed green; }
+
+/* Edit and edit preview page  */
+input#comment { background-color: #333; color: lightgrey; border: 2px ridge green; }
+#data_file { background-color: #333; color: lightgrey; }
+
+/* History pages */
+#moin-global-history,
+#moin-page-history { border: 4px ridge green; }
+#moin-global-history a,
+#moin-page-history a { color: green; } 
+#moin-global-history th,
+#moin-page-history th { background-color: #333; color: lightgrey; }
+#moin-global-history td,
+#moin-page-history td { background-color: #111; color: lightgrey}
+#moin-global-history tr,
+#moin-page-history tr { border: 1px solid grey; }
+.moin-diff-removed { font-family: "courier new", monospace; }
+
+/* Table of Contents*/
+div.table-of-contents  { background-color: #333; color: green; border: 4px ridge green}
+
+/* --------- screen.css changes -------- */
+		
+/* Content */
+#moin-page { background-color: black; border-top: 2px dashed green; }
+
+/* Links */
+a:link { color: lightgreen; }
+a:visited { color: lightgrey; }
+a:visited:hover { text-decoration: underline; color: lightgreen; }
+a:hover,
+a:active { color: lightgreen; }
+a.moin-nonexistent:link { color: #07C; }
+a.moin-nonexistent:hover { color: red; text-decoration: underline; } 
+
+/* Header */
+#moin-header { background: black; }
+
+#moin-username input { color: lightblue; font-size: 0.82em; cursor: pointer; }
+#moin-username input:hover { color: green; }
+.moin-flash-info { color:green; }
+
+/* Searchform */
+#moin-searchinput { background-color: #444; color: lightgrey; border: 4px ridge green; }
+#moin-searchform label { display:none; }
+
+
+/* Navibar */
+#moin-navibar li { border: 1px dashed black; font-size: 1em; border-bottom: none; margin-bottom: 1px; }
+#moin-navibar li.wikilink { background: lightgreen; }
+#moin-navibar li:hover { background: #D6E4F9; }
+			
+/* Pageline  */
+#moin-pageline { border-top: .5px solid black; background: lightgreen; }
+
+/* Editbar / Footer */
+.moin-editbar { margin-bottom: -4px; background: black; border-bottom: 2px solid green; border-top: 1px solid green; margin-top: 0; }
+.moin-editbar a:link { color: lightgreen; }
+.moin-editbar a:visited { color: lightgrey; }
+.moin-editbar a:hover { text-decoration: underline; }
+#moin-actionsmenu-select { background-color: #444; color: lightgrey; border: 2px ridge green; }
+
+/* Footer */
+#moin-footer { border-top: none; }
+#moin-credits a { color: grey; }

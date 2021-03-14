@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <nav class="navbar navbar-default navbar-dark bg-primary">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Fantastic Lottery</a>
+          </div>
+        </div>
+    </nav>
+    <body>
+        <br>
+        <main role="main" class="container">
+            <div class="container w-50">
+                <form class="center" method="post">
+                    <div class="form-group">
+                        <h2 class="text-center">Check if your coupon won</h2>
+                        <input class="w-100" type="text" name="cid" id="cid" autocomplete="off" placeholder="Coupon ID">
+                    </div>
+                    <input type="submit" class="btn btn-primary w-100" value="Check">
+                </form>
+            </div>
+            
+            <br>
+            <div class="container">
+                {% if error %}
+                    <p class="alert alert-danger text-center"><strong>{{ error }}</strong> 
+                {% else %}    
+                    {% block header %}{% endblock %}
+                    {% block content %}{% endblock %}
+                {% endif %}
+                <!-- TODO remove it but for real now /?source=7331 -->
+            </div>
+        </main>    
+    </body>
+
+</html>

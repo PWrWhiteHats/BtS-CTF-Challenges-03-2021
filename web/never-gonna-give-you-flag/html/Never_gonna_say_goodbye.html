@@ -1,0 +1,19 @@
+<html>
+<head>
+  <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+	<div> Rick never gonna: </div>
+	<p id="rick-says">
+	</p>
+<img src="images/rick6.jpg">
+	<script nonce="**CSP_NONCE**"> 
+		var arg = decodeURIComponent(window.location.search.substr(1).split('=')[1]);
+		if(arg !== "undefined"){
+			$('#rick-says').append(arg);
+		}	
+		//console.log(arg)
+	</script>
+
+</body>
+</html>

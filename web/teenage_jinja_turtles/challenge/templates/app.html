@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- <link href="/debug_it" rel="next"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <nav class="navbar navbar-light" style="background-color: #f5cb58;">
+        <div class="container-fluid text-center">
+          <div class="container-fluid text-center">
+            <a class="navbar-brand text-center" href="#">Geolocation checker</a>
+          </div>
+        </div>
+    </nav>
+    <body>
+        <br>
+        <main role="main" class="container">
+            <div class="container w-50">
+                <form class='ip_form center'>
+                    <div class="form-group">
+                        <h2>Type in an IP:</h2>
+                        <input class="w-100" type="text" name="ip" id="ip" autocomplete="off" placeholder="IP">
+                    </div>
+                    <input type="submit" class="btn btn-light w-100 submit_button" style="background-color: #f5cb58;" id="submit_button" value="Check">
+                </form>
+            </div>
+        </main>   
+        <br>
+        <div class="container" id="res"> 
+            
+        </div>
+        <footer>
+            <script src="{{ url_for('static', filename='js/helpers.js') }}"></script>
+        </footer>
+    </body>
+</html>

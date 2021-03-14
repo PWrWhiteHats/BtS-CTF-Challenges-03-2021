@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <h1 class="text-center">Winning coupon</h1>
+{% endblock %} 
+
+{% block content %}
+    <table class="table table-hover">
+        <thead >
+            <tr class="w-25">
+                <th scope="col">Code</th>
+                <th scope="col">Value ($)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for coupon in coupons %}
+            <tr class="w-25">
+                <td>
+                    {{ coupon['code'] }}
+                </td>
+                <td>
+                    {{ coupon['value'] }}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+{% endblock %}
