@@ -1,6 +1,6 @@
 # Make-a-bet challenge
 
-_Author: Hck_  
+_Author: [Hck_](https://github.com/KamilPiszczek)  
 _Tags: Crypto, PRNG_
 
 ## how to use
