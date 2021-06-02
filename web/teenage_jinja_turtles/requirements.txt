@@ -7,6 +7,6 @@ itsdangerous==1.1.0
 Jinja2==2.11.1
 MarkupSafe==1.1.1
 requests==2.22.0
-urllib3==1.25.8
+urllib3==1.26.5
 Werkzeug==1.0.0
 gunicorn
